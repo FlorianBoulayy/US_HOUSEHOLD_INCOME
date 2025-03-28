@@ -11,7 +11,7 @@ This project focuses on data cleaning and exploratory data analysis (EDA) using 
 
 # SQL Techniques Used
 
- Data Cleaning
+🧹Data Cleaning
 
 - Corrupted column fix: Renamed malformed column names (e.g., `ï»¿id` → `id`).
 - Deduplication: Removed duplicate entries using the `ROW_NUMBER()` window function.
@@ -20,7 +20,7 @@ This project focuses on data cleaning and exploratory data analysis (EDA) using 
 - Missing values handling: Identified and updated blank entries in key fields like `Place`.
 - Validation: Checked for null or zero values in land/water area columns.
 
-📊 Exploratory Data Analysis (EDA)
+🔎 Exploratory Data Analysis (EDA)
 
 - Geographic aggregations:
   - Total land and water area by state.
@@ -35,7 +35,7 @@ This project focuses on data cleaning and exploratory data analysis (EDA) using 
 
 
 
-🧠 Key Concepts Demonstrated
+📌 Key Concepts Demonstrated
 
 - Data deduplication with `ROW_NUMBER() OVER(PARTITION BY ...)`
 - Aggregation with `SUM`, `AVG`, `ROUND`, `GROUP BY`, and `HAVING`
@@ -44,17 +44,17 @@ This project focuses on data cleaning and exploratory data analysis (EDA) using 
 - Analytical sorting with `ORDER BY` and `LIMIT`
 
 
-🚀 How to Use
+How to Use
 
 1. Import both CSV files into your SQL database (e.g., MySQL or PostgreSQL).
 2. Run the first part of the SQL script to clean and prepare the data.
 3. Run the second part of the SQL script to explore income patterns across the U.S.
 
 
- 👤 Author
+📩 Contact
 
-Florian Boulay 
-📧 florian.boulay@hec.ca  
-🔗 [LinkedIn](https://www.linkedin.com/in/florian-boulay-524298179/)
+For any questions, feel free to connect:
 
- If you found this project helpful or insightful, consider giving it a ⭐ on GitHub!
+📧 Email: florian.boulay@hec.ca
+🔗 LinkedIn: https://www.linkedin.com/in/florian-boulay-524298179/
+🚀 If you found this project helpful, consider giving it a ⭐ on GitHub!
